@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="bg-[#e6eff6] w-full h-screen flex justify-center items-center">
+    <div className=" w-full h-screen flex justify-center items-center">
       <div className="grid md:grid-cols-2 rounded-2xl shadow-xl overflow-hidden max-w-sm md:max-w-2xl">
         <div className="flex flex-col gap-3 justify-center p-10 bg-white md:col-span-2">
           <h1 className="text-cyan-500 font-karla text-3xl font-bold">Join our community</h1>
