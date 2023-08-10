@@ -10,6 +10,9 @@ const karla = Karla({
 
 export default function App({Component, pageProps}: AppProps) {
   return (
+    <Head>
+      <title>Frontend Mentor Challenge</title>
+    </Head>
     <main className={`${karla.variable}`}>
       <Component {...pageProps} />
     </main>
