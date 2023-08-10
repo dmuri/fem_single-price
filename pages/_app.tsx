@@ -1,6 +1,8 @@
 import '@/styles/globals.css'
 import type {AppProps} from 'next/app'
 import {Karla} from 'next/font/google'
+import Head from 'next/head'
+
 
 const karla = Karla({
   subsets: ['latin'],
